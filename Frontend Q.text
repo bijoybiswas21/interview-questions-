@@ -1,0 +1,973 @@
+What is Front-End Development?
+Front-end development, also known as client-side development, focuses on building the user interface (UI) and user experience (UX) of a website or web application. It involves designing and implementing interactive elements that users interact with directly. The core technologies used in front-end development are HTM for structure, CSS for styling, and JavaScript for interactivity.
+
+Apart from that, we use different CSS frameworks (like Bootstrap, Tailwind CSS) and JavaScript frameworks (like React, Angular, Vue.js) to enhance development efficiency and improve user experience.
+
+Frontend Developer Interview Questions – Beginners
+1. What is HTML?
+HTML stands for Hyper Text Markup Language. It is a markup language that consists of different tags. It is used to define the structure of the web pages. HTML is the basic building block of the web page which is used to display text, images, and other content.
+
+2. What are Semantic elements in HTML?
+The semantic elements in HTML are the elements that contain the meaning of the content and the structure of the HTML document. These elements contain content that is related to their names or reflects their names. These are some of the semantic HTML elements are listed below:
+
+Header
+Main
+Section
+Article
+Aside
+Footer etc.
+3. Differentiate between the Inline and the Block elements in HTML.
+The Inline elements in HTML are the elements that start from the same line and take up the same space and width as acquired by the content. The margin and padding properties applied at the top and the bottom of these elements may not have the expected effect. Examples: <a>, <strong>, <img>, <input> etc.
+
+The Block elements automatically start from a new line and take up the whole view-port width irrespective of the contained content. The padding and margin properties have the same effect on all the four sides. Examples: <div>, <h1> to <h6>, <p>, <table> etc.
+
+4. What is a list in HTML? Explain the different types of lists available in HTML.
+In HTML, the lists are used to represent a collection of different items. There are three types of lists available in HTML as listed below:
+
+1. Unordered List: It is defined using the <ul> and <li> tags. By default, it represents the items with a bulleted dot.
+
+
+
+
+<ul>
+    <li>List Item 1</li>
+    <li>List Item 3</li>
+    <li>List Item 3</li>
+</ul>
+Screenshot-2025-02-07-165206
+Unordered List
+
+2. Ordered List: It is defined using the <ol> and <li> tags. By default, it represents the list of items with numeric digits.
+
+
+
+
+<ol>     
+    <li>List Item 1</li>
+    <li>List Item 3</li>
+    <li>List Item 3</li>
+ </ol>
+Screenshot-2025-02-07-165315
+Ordered List
+
+3. Definition List: It is a special kind of list that is used to list the terms with their definitions in a structured way. It can be defined using the <dl>(definition list), <dt>(definition term), and <dd>(definition description) tags.
+
+
+
+
+<dl>
+    <dt>First  term</dt>
+    <dd>Definition 1</dd>
+
+    <dt>Second term</dt>
+    <dd>Definition 2</dd>
+
+    <dt>Third term</dt>
+    <dd>Definition 3</dd>
+</dl>
+Screenshot-2025-02-07-165406
+Definition List
+
+5. What is the difference between <div> and <span>?
+The below table will show the differences between the div and span tags in HTML:
+
+<div> tag
+
+<span> tag
+
+It is a block-level element.
+
+It is an inline element.
+
+It can be used to group and structure the content of the web page.
+
+It is mainly used to interact and style a particular part of the web page.
+
+It represents a bigger section of the web page.
+
+It is used to target small parts of the web page.
+
+It starts from a new line and takes up the full width available.
+
+It does not start from a new line and takes up only the required width as taken by the content.
+
+6. What is the DOCTYPE declaration?
+In HTML, DOCTYPE declaration is also known as the document type declaration. It defines the document type and tells the browser in which version of the HTML the document is written.
+
+7. What is the purpose of the <iframe> tag?
+The <iframe> tag is used to embed the external documents or the web pages inside the current document by specifying its link inside it. It is mainly used to embed external videos, maps, and other external content.
+
+8. What is the difference between <b> and <strong> tags in HTML?
+The <b> and <strong> tags both are used for making the text bold. The <b> is used when we want to only highlight the text. While the <strong> is used when we want to indicate the importance of the text.
+
+9. What are meta tags in HTML?
+In HTML, meta tags are used to define the metadata about the HTML document, including character set, description, keywords, author, and viewport settings. Placed within the <head> element.
+
+10. Explain tags in HTML.
+The HTML tags are used to define the elements on the web page. They are the keywords that are enclosed inside the angle brackets(<>). The examples of HTML tags are <div>, <p>, <a>, <span>, <img> etc.
+
+11. What is CSS?
+CSS stands for the Cascading Style Sheets. It helps us to design and style the web page to make it attractive for users. It is used to describe how the elements should be displayed on the screen. CSS provides us with a lot of selectors to select the HTML elements and style them according to the requirements. Some of the CSS selectors are Element Selectors, Class Selectors, and Id Selectors.
+
+12. Explain selectors in CSS.
+In CSS, selectors are used to select elements and style the element by providing CSS properties to it. Below is the list of some common CSS selectors:
+
+Element Selector: Select directly by using the name of the element.
+ID Selector: Define the ID attribute and select using the # prefix followed by the value of the ID attribute.
+Class Selector: Define the Class attribute and select using the. Prefix followed by the value of the class attribute.
+Universal Selector (*): Select using the * sign.
+Attribute Selector: Select the elements based on the attribute values. Eg: input[type=”text”]{}
+Direct Child Selector: Select an element using any of the above selectors and use > followed by direct child selector. Eg: parent > child{}
+Pseudo Selectors: These are selectors like :hover, :nth-child(), ::after, ::before etc.
+13. What is the difference between visibility: hidden and display: none properties in CSS?
+The visibility: hidden property only hides the content of the element on which it is used. It does not remove the element from the document and keeps the space as it is so that no other element can replace it on the UI.
+
+The display: none property not only hides the element but removes it from the document and the space acquired by the element is now free to be acquired by the other elements.
+
+14. What is the difference between CSS Grid and Flexbox?
+CSS Grid is used for creating two-dimensional layouts and simultaneously manages both the rows and columns.
+
+Flexbox is used for the one-dimensional layouts, which align the items in a single row or column.
+
+15. What is the use of float property?
+The float property allows to set the child elements of a container either on the left side of it or on the right side of it. The possible values for this property are left, right, initial, inherit, and none.
+
+16. What is JavaScript?
+JavaScript is a high-level scripting language. It is a dynamically typed language. JavaScript is used to add dynamic elements and styles to the HTML document to make the web page more interactive and attractive. JavaScript is used in both frontend as well as backend.
+
+17. What is the difference between let, var, and const?
+Feature
+
+var
+
+let
+
+const
+
+Scope
+
+Function-scoped
+
+Block-scoped
+
+Block-scoped
+
+Hoisting
+
+Hoisted but initialized as undefined
+
+Hoisted but not initialized
+
+Hoisted but not initialized
+
+Re-declaration
+
+Allowed within the same scope
+
+Not allowed in the same scope
+
+Not allowed in the same scope
+
+Temporal Dead Zone (TDZ)
+
+No TDZ (accessible before declaration)
+
+Has TDZ (not accessible before declaration)
+
+Has TDZ (not accessible before declaration)
+
+Re-assignment
+
+Allowed
+
+Allowed
+
+Not allowed (constant)
+
+18. What is difference between == and === in JavaScript?
+The == operator is known as the double-equal operator in JavaScript. The == operator checks only for the values of the operands and returns true if the values are the same.
+
+The === operator is known as the triple equal to the operator. It not only checks for the values of the operands but also the types of the operands. It returns true only if the values and the type of the operands are the same.
+
+
+
+
+let num = 5;
+let str = '5';
+
+console.log(num == str);  
+console.log(num === str); 
+
+Output
+true
+false
+19. What is the DOM?
+DOM stands for the Document Object Model. In JavaScript, DOM is used to represent the structure of the web page. It allows us to manipulate the elements, attributes, and content of a web page using JavaScript. It is a tree-like representation of a web page’s HTML structure.
+
+20. Difference between null and undefined in JS.
+Undefined Value:
+
+The undefined is the default value that is assigned to a variable that is declared but not initialized.
+It is also the default return value of a function.
+When you try to access some value or property that is not in the part of an object, it returns undefined.
+Null Value:
+
+It can be assigned to a variable to make it an empty variable.
+It represents that the accessing variable is not present in the code.
+
+
+
+let a;      // variable is declared but not assigned a value
+let b = null; // variable is explicitly assigned a null value
+
+console.log(a);  
+console.log(b);  
+
+console.log(a === b);  // false (undefined is not equal to null)
+
+Output
+undefined
+null
+false
+21. What is React?
+React is the open-source front-end JavaScript library created by Facebook, that is used for building user interfaces(UI) based on components. There are various features which are provided by the React.
+
+Key Features of React
+
+Component-Based Architecture
+Virtual DOM (DOM)
+JSX (JavaScript XML)
+One-Way Data Binding
+Single Page Application (SPA)
+State Management
+22. Explain the building blocks of React.
+There are five building blocks of React
+
+Components: These are reusable blocks of code that return HTML.
+JSX: It stands for JavaScript and XML and allows you to write HTML in React.
+Props and State: props are like function parameters and State is similar to variables.
+Context: This allows data to be passed through components as props in a hierarchy.
+Virtual DOM: It is a lightweight copy of the actual DOM which makes DOM manipulation easier.
+23. What is virtual DOM in React?
+DOM refers to the Document Object Model. Virtual DOM is a virtually created DOM. It is exactly like DOM and it has all the properties that DOM has. But the main difference is Whenever a code runs JavaScript Framework updates the whole DOM at once which gives a slow performance. Whereas virtual DOM updates only the modified part of the DOM.
+
+24. What is JSX React?
+JSX stands for the JavaScript XML. It is the syntax extension for JavaScript. JSX allows us to write the HTML code inside the JavaScript, then React compiles this code into pure JavaScript that can be rendered by the browser.
+
+import React from 'react';
+function App() {  
+    return <h1>Hello, React!</h1>;
+}
+export default App;
+In this example, the JSX code inside the App function returns an <h1> element with the text “Hello, React!” which will be displayed in the browser when the component is rendered.
+
+25. What are the components In React?
+A Component is one of the core building blocks of React. In other words, we can say that every application we develop in React will be made up of pieces called components.
+
+There are the two types of the components in the React
+
+Functional Component: They are the simple JavaScript functions that accept the props as the input and return the JSX as output. Functional components can manage the state and the lifecycle with the help of the React Hooks.
+Class Component: The class components are a little more complex than the functional components. The functional components are not aware of the other components in your program whereas the class components can work with each other. We can pass data from one class component to another class component.
+26. What is Angular?
+Angular is the open-source framework that is used for building web applications using TypeScript. Angular is used for building single-page applications (SPAs). It was developed by Google.
+
+Key Features of Angular
+
+Two-way data binding: Synchronizes data between the model and the view automatically.
+Dependency injection: Manages and injects dependencies efficiently to enhance modularity.
+Modularization: Break down the application into smaller, reusable modules.
+Templating: Uses templates to define the view, providing dynamic and efficient UI updates.
+RESTful API handling: Simplifies interaction with RESTful services and APIs.
+27. What is AngularJS?
+AngularJS, developed by Google, has been important in web development since its inception in 2009. AngularJS excels at building SPAs. AngularJS, developed by Google, has been important in web development since its inception in 2009. AngularJS excels at building SPAs.
+
+Unlike Angular, which is TypeScript-based, AngularJS relies on JavaScript and has limited mobile optimization. As AngularJS is now deprecated, developers are encouraged to migrate to Angular for better performance and maintainability.
+
+28. What are the Components in Angular?
+Components are the building block of the Angular. It consists of a TypeScript class, an HTML template, and optional CSS styles.
+
+Example: Creating a reusable header component for your application.
+
+import { Component, Input } from '@angular/core';
+
+@Component({
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.css']
+})
+export class HeaderComponent {
+    @Input() title: string;
+    @Input() links: { name: string, url: string }[];
+
+    constructor() { }
+}
+29. What is Two-Way Data Binding in Angular?
+Angular supports two-way data binding, which allows the automatic synchronization of data between the view and the component. If any changes are made in the component will be reflected in the view and if any changes are made in the view it will be reflected in the component. This is known as the two-way data binding.
+
+30. What is Lazy Loading in Angular?
+In Angular Lazy Loading is a technique that is used to load the modules on demand instead of loading all the modules at the start. Due to this, the performance of the application is improved and the initial load time of the application is also reduced.
+
+31. What are Angular Pipes?
+Angular Pipes are used to transform the displayed data in the template. They apply the transformation on the input values and return the transformed value. Due to this, we can directly manipulate the data in the HTML templates.
+
+Syntax
+
+{{ value | pipeName }}
+32. What is Vue.js?
+Vue.js is the framework of JavaScript, which is used for building single-page applications(SPAs) and user interfaces (UI) for websites. It stands out for its simplicity, seamless integration with other libraries, and reactive data binding.
+
+33. What are VueJS components?
+A component in VueJS is a reusable piece of code that signifies a part of the user interface. Components make it simpler to handle complex applications by splitting them down into minor, controllable pieces.
+
+34. What are Props in VueJS?
+Props in VueJS are custom attributes that permit parent components to pass data to child components. They empower component reusability by making it possible to handle child components from their parent. They are specified in the child component and received as arguments from the parent.
+
+Syntax
+
+Vue.component('child-component', {
+    props: ['propName'],
+        // define component
+});
+35. What is a VueJS Router?
+Routing in VueJs is used to navigate the Vue application, permitting the formation of single-page applications with multiple views. Vue Router helps link between the browser’s URL/History and Vue’s components empowering certain paths to render whatever view is linked with it. A Vue router is utilized in making single-page applications.
+
+36. What is Git?
+Git is an open-source version control system that helps the developers to store, track, and manage the code. Git was created by Linus Torvalds in 2005 for Linux kernel development. The latest version of the git is 2.48.1.
+
+37. What are the advantages of using Git?
+The advantages of using the Git is mentioned below
+
+Version Control: Git helps in tracking and managing the changes in the code.
+Secure: It uses cryptographic hashing to secure the codebase.
+Easy to use: It is easy to use because we need to manage the less commands.
+Collaboration: Many developers can work together on the same project.
+38. Explain the difference between Git and GitHub.
+Feature
+
+Git
+
+GitHub
+
+Definition
+
+Git is a distributed version control system (VCS) that helps track changes in source code.
+
+GitHub is a cloud-based platform for hosting Git repositories and facilitating collaboration.
+
+Purpose
+
+Used to manage source code locally and track changes.
+
+Provides a remote hosting service for Git repositories with collaboration features.
+
+Hosting
+
+Does not provide cloud hosting for repositories.
+
+Offers cloud hosting for repositories with features like private/public repositories.
+
+Usage
+
+Helps developers track, commit, and merge code changes.
+
+Provides features like issue tracking, pull requests, and code review.
+
+Examples
+
+Other Git hosting services: GitLab, Bitbucket, etc.
+
+GitHub is a Git hosting service with additional features for teamwork.
+
+39. What is a repository in Git?
+In Git, the repository is the location in which all the files and the versions of projects are stored, which allows the developers to track the changes made in the code. There are two types of repository.
+
+Local Repository: Local Repositores exists on a developer’s local machine.
+Remote Repository: Remote Repositories are stored on the server (example-GitHub, GitLab).
+Frontend Developer Interview Questions – Intermediate
+40. What is localStorage?
+localStorage is a client-side web storage mechanism that allows web applications to store key-value pairs persistently in a user’s web browser. It provides a simple interface for storing data locally.
+
+41. What is sessionStorage?
+sessionStorage is a web storage API provided by web browsers to store the data in a similar way as stored in the localStorage in the form of the key-value pairs. The data stored in the sessionStorage will only be accessible for one session such that if the user closes the window or tab the stored data will be lost.
+
+42. How to create the table In HTML?
+In HTML, tables are created using the <table> element. Each table consists of rows <tr> and cells <td> for data, <th> for headers.
+
+
+
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>GFG</td>
+        <td>12</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>Riya</td>
+        <td>24</td>
+        <td>India</td>
+    </tr>
+</table>
+Screenshot-2025-02-08-110601
+Table
+
+43. Difference between the GET and the POST methods in HTML forms.
+GET Method
+
+POST Method
+
+It is an insecure way to send data on the server.
+
+It is a secure way of sending the form data.
+
+All the form data parameters are visible in the URL.
+
+None of the parameters are visible anywhere.
+
+It has a URL length limit that varies for different browsers.
+
+It has a bigger URL length limit as compared to the limit of the GET method.
+
+Results are cached by the browser by default.
+
+Does not cache the responses in the browser by default.
+
+Users can bookmark the form submission.
+
+Responses can be bookmarked easily.
+
+44. What are the attributes in HTML?
+The HTML attributes are used to define the behavior of the HTML element. The attributes are used along with the HTML tags.
+
+Example: div class=”container”, <p title=”This is a GFG”>. Here, class and title are the attributes that are used along with the HTML tags to define the HTML element.
+
+45. What are void elements in HTML?
+In HTML, void elements are also known as empty elements. Void elements are the elements that do not have the closing tag, they only have the opening tags. Example: <img>, <meta>, <link>, <br>.
+
+46. What is z – index in CSS?
+The z-index property is used to control the stacking order of the elements that are positioned using the position property in CSS.
+
+The default value of the z-index is auto(0).
+z-index works only with the positioned elements (relative, absolute, fixed, or sticky).
+The elements having a positive z-index value will appear in front and the element having a negative z-index value will appear behind.
+47. What is the Box Model in CSS?
+The CSS Box Model defines how elements are sized, positioned, and rendered on a webpage. When a browser loads an HTML document, it creates a DOM tree and assigns a box to each element. This box calculates the element’s dimensions and position relative to its parent or the root <html> element, ensuring accurate layout and spacing.
+
+Screenshot-2024-12-10-105714
+48. What is the flexbox?
+In CSS, Flexbox is the one-dimensional layouts, that align the items either in a single row or column and distribute the space between them due to which the elements can flex or grow and shrink to fit the available space within a container.
+
+49. How we can include the CSS in the webpage?
+We can include the CSS in the webpage in the following ways
+
+Inline CSS
+
+Inline CSS is added directly to the HTML element using the style attribute.
+
+<p style="color: blue; font-size: 20px;">This is a paragraph with inline CSS.</p>
+External CSS
+
+External CSS is written in a separate .css file and linked to the HTML document using the <link> tag.
+
+p {
+    color: red;
+    font-size: 16px;
+}
+Internal CSS
+
+Internal CSS is written inside a <style> tag within the <head> section of the HTML file.
+
+<style>
+        p {
+            color: green;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <p>This paragraph is styled using internal CSS.</p>
+</body>
+CSS @import Method
+
+We can import an external CSS file inside another CSS file using @import.
+
+
+<link rel="stylesheet" href="main.css">
+<body>
+    <h1>This heading is styled using imported CSS.</h1>
+</body>
+50. What is the CSS preprocessor?
+CSS Preprocessor is the scripting language that generates the Cascading Style Sheets (CSS) from their own syntax.
+
+The most used CSS preprocessors are SASS and LESS.
+SASS is based on the Ruby language while LESS is based on JavaScript, initially, it was also based on Ruby but now shifted to JavaScript. They provide some extra features like creating variables, mixins, code nesting, and some other features to enhance code maintainability.
+51. What is hoisting in JavaScript?
+In JavaScript, Hoisting is the behavior in which during the compilation phase, the variables and the functions declarations are moved to the top of their respective scopes.
+
+Hoisting is applied on the var.
+But with let and const it is technically hoisted which goes under the TDZ (Temporal Dead Zone) and shows the Reference Error, where we cannot access them before their declaration point.
+Example with the var
+
+
+
+
+a = 10
+var a
+console.log(a)
+
+Output
+10
+Example with let
+
+
+
+
+a = 10
+let a
+console.log(a);
+It will show the Reference Error
+52. Difference between Implicit and Explicit Conversion in JavaScript?
+Conversion Type
+
+Implicit Conversion (Coercion)
+
+Explicit Conversion
+
+Definition
+
+Automatically converts data types during operations.
+
+Manually converts data types using built-in functions.
+
+Control
+
+Controlled by JavaScript.
+
+Controlled by the developer.
+
+Conversion Type
+
+Converts string → number, boolean → number, etc., based on context.
+
+Uses methods like Number(), String(), Boolean(), parseInt(), etc.
+
+Common Examples
+
+console.log(“5” + 3); // “53” (number converted to string)
+
+console.log(“5” – 3); // 2 (string converted to number)
+
+console.log(Number(“5”) + 3); // 8
+
+console.log(String(5) + ” is a number”); // “5 is a number”
+
+53. What is Implicit Type Coercion in JavaScript?
+In JavaScript, the implicit type conversion or coercion conversion can be defined as the automatic conversion of the data type of the variables from one type to another type. Implicit type conversion mostly occurs when we are performing the arithmetic or the logical operations.
+
+String + Number (Concatenation)
+Boolean to Number
+Equality Comparison (==)
+54. What are the closures?
+A closure is a function that has access to its scope, the outer function’s variables, and global variables, even after the outer function has finished executing. This enables functions to “remember” their environment.
+
+
+
+
+function outer() {
+    let outerVar = "I'm in the outer scope!";
+    function inner() {
+        console.log(outerVar);
+    }
+    return inner;
+}
+const closure = outer(); 
+closure();
+
+Output
+I'm in the outer scope!
+In this example
+
+outer() defines a local variable outerVar.
+Inside outer(), we define innerFunction, which logs the value of outerVar.
+outer() returns inner(), and closure() stores the returned value (which is inner()).
+Even though outer() has finished execution, inner() can still access outerVar because it “remembers” the environment where it was created. This is the closure at work!
+55. What is the use of ‘this’ keyword in JS?
+The this eyword in JavaScript is an identifier that based on the scope of the function or variable from which it is invoked. The scoping behavior of this keyword changes based on the scope where it is used.
+
+
+
+
+const person = {
+    name: "GFG",
+    greet: function() {
+        console.log("Hello, " + this.name);
+    }
+};
+
+person.greet();
+
+Output
+Hello, GFG
+In this example
+
+This keyword refers to the object that calls the function.
+Here, this.name refers to a person.name, which is “GFG”.
+56. How do browsers read JSX in React?
+Browsers are not capable of reading JSX they can only read pure JavaScript. The web browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel.
+
+57. What is a react router?
+React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+
+To install react router type the following command.
+
+npm i react-router-dom
+58. What are Hooks in React?
+React hooks was introduced in React 16.8, with the help of the React hooks we can use the state and lifecycle features in the functional components without using the class components.
+
+Some of the commonly used React Hooks are
+
+useState: Enables functional components to manage their own state.
+useEffect: Allows performing side effects in functional components, similar to lifecycle methods in class components.
+useContext: Provides a way to access context values within functional components.
+useRef: Creates a mutable reference that persists across renders.
+useMemo: Memoizes the result of a function, preventing unnecessary recalculations.
+useCallback: Memoizes a function itself, useful for optimizing performance when passing callbacks to child components.
+59. What are Custom Hooks in React?
+Custom Hooks are user-defined functions that encapsulate reusable logic. They enhance code reusability and readability by sharing behavior between components.
+
+60. What are the lifecycle methods in the React?
+Lifecycle methods in the React are the special methods in class component that allow us to run the code at different stages of a component lifecycle.
+
+There are the three main phases of the Component Lifecycle
+
+Mounting: When the component is created and inserted into the DOM.
+Updating: When the component’s state or props change.
+Unmounting: When the component is removed from the DOM.
+61. What are the main features of Angular?
+Two-way data binding: Synchronizes data between the model and the view automatically.
+Dependency injection: Manages and injects dependencies efficiently to enhance modularity.
+Modularization: Break down the application into smaller, reusable modules.
+Templating: Uses templates to define the view, providing dynamic and efficient UI updates.
+RESTful API handling: Simplifies interaction with RESTful services and APIs.
+62. What is Angular CLI?
+Angular CLI is a command-line interface tool that helps automate the development workflow, including creating, building, testing, and deploying Angular applications.
+
+63. What is a module in Angular?
+A module is a container for a cohesive group of components, directives, pipes, and services. It is defined using the @NgModule decorator.
+
+64. What is a directive in Angular?
+A directive in Angular is a special instruction that extends HTML functionality by attaching custom behaviors to elements in the DOM. Directives help manipulate the structure, appearance, and behavior of elements dynamically.
+
+Angular provides three types of directives
+
+Component Directives: These are directives with a template, and they form the building blocks of Angular applications (e.g., @Component).
+Structural Directives: These alter the layout by adding or removing elements from the DOM (e.g., *ngIf, *ngFor, *ngSwitch).
+Attribute Directives: These change the appearance or behavior of an element (e.g., ngClass, ngStyle, custom directives).
+Apart from that, Angular allows us to create custom directives to add reusable functionalities and enhance HTML elements based on specific project needs.
+
+65. What is scope and Data Binding in AngularJS?
+Scope: Scope in AngularJS is the binding part of HTML view and JavaScript controller. When you add properties into the scope object in the JavaScript controller, only then the HTML view gets access to those properties.
+Data Binding: Angular provides a function Data Binding which helps us to have an almost real-time reflection of the input given by the user i.e. it creates a connection between Model and View.
+66. What is a Vue instance? How can we create a Vue instance?
+VueJS instance is the root of all Vue application. It is JavaScript object formed by the ‘Vue’ constructor function and assists as the initiating point for building a Vue application.
+
+Creating Vue Instance
+
+var app = new Vue({
+    // Options object  
+    el: '#app', // The element to mount the Vue instance to  
+    data:
+    {
+        message: 'Hello GeeksForGeeks!'
+    }
+)}
+67. What is the watcher in VueJS?
+A watcher in Vue.js is a mechanism designed to monitor changes in data properties within a component. It allows developers to execute specific functions in response to those changes, making it useful for handling complex logic when reactive properties are updated.
+
+68. Explain Virtual Dom in VueJs?
+In VueJS, the Virtual DOM (VDOM) is an approach used to upgrade execution when updating web pages. It works like a blueprint of the real web page’s structure, kept in memory.
+
+When a Vue component changes, Vue first update VDOM instead of directly editing the real DOM.
+Then, it matches the improved VDOM with the earlier one to figure out the smallest number of changes vital in the real DOM.
+69. Explain Hooks in VueJS?
+Hooks are a new feature introduced in VueJS 3. Hooks are functions that permit adding reusable logic to components. They permit managing state, lifecycle events, and side effects within functional components.
+
+Some of the most typically used hooks include
+
+‘onMounted‘ : The ‘onMounted’ hook enacts directly after the component is mounted onto the DOM. It is best for executing tasks like DOM manipulations or fetching data, assuring these operations happen at the right moment while the component’s lifecycle.
+‘onUnmounted‘ : The ‘onUnmounted’ hook initiates just before the component is eliminated from the DOM. It is impeccable for doing cleanup tasks, assuring that any vital operations are done before the component is no longer active in the application.
+70. What is Vue CLI and how is it used?
+Vue CLI (Command Line Interface) is a tool for fast support VueJS projects. This is a command-line utility that permits you to choose from a range of build tools. With Vue CLI, developers can rapidly set up a new project with best practices and modern build tools like Webpack or Vite.
+
+Frontend Developer Interview Questions – Advanced
+71. What is an anchor tag in HTML?
+The <a> tag (anchor tag) in HTML is used to create a hyperlink on the webpage. This hyperlink is used to link the webpage to other web pages. It’s either used to provide an absolute reference or a relative reference as its “href” value. Click Here to know more in detail.
+
+Syntax
+
+<a href = "link"> Link Name </a>
+72. How to create scrolling text or images on a webpage?
+This task can be achieved through <marquee> tag in HTML that helps to create scrolling text or image on a webpage. It scrolls either from horizontally left to right or right to left, or vertically from top to bottom or bottom to top.
+
+Syntax: The marquee element comes in pairs. It means that the tag has an opening and closing elements.
+
+<marquee>   
+<--- contents --->
+</marquee>
+73. How can you apply JS in your HTML?
+Scripts can be placed inside the body, the head section of an HTML page, inside both head and body, or can be added externally.
+
+JavaScript in head: A JavaScript function is placed inside the head section of an HTML page and the function is invoked when a button is clicked.
+JavaScript in the body: A JavaScript function is placed inside the body section of an HTML page and the function is invoked when a button is clicked.
+External JavaScript: JavaScript can also be used as external files. JavaScript files have file extension .js . To use an external script put the name of the script file in the src attribute of a script tag.
+74. How you can merge the rows and columns of a HTML table?
+We can use the colspan and the rowspan attributes with the <td> element and specify the number of rows and columns to be merged by passing a numerical value to the defined attributes. The colspan attribute can be used to merge columns while the rowspan to merge the rows.
+
+75. What is the purpose of using <figure> and <figcaption> elements in HTML5?
+The <figure> element is used to display the media content on the web page like audios, videos etc. While, the <figcaption> element is used to give a caption or legend to the content shown by the <figure> element.
+
+76. What are pseudo classes and pseudo elements in CSS?
+The pseudo classes and pseudo elements are different entities in CSS. They are combinely known as pseudo selectors in CSS. Below is the explanation for them:
+
+pseudo classes: These are the classes that selects the elements based on their state and the position. Some pseudo classes are :hover, :focus, :nth-child etc.
+pseudo elements: These are the virtual elements that are mainly defined to style a particular part of an element in the HTML document. Some pseudo elements are :before and :after.
+77. What is Media Queries in CSS?
+Media queries are the block of CSS code defined for a particular width or range of the width. These can be defined using the @media keyword with screen to specify styles for a particular width or range of width. They are used very commonly to create responsive designs.
+
+78. How to create responsive designs?
+There are some key concepts available in CSS that can help you in creating responsive designs as listed below
+
+Using Media queries
+Using the flexbox layout
+Using the grid layout
+Using responsive CSS properties like percentage and vh, vw.ow to create responsive designs
+79. How you can optimize the loading of CSS files in browser?
+There are multiple techniques available to optimize loading of CSS files as listed below
+
+By minimizing number of CSS files.
+CSS minification
+By leveraging the browser cache
+Load the un-necessary styles using asynchronous or deffered loading.
+80. What is the meaning of ‘Cascading’ in Cascading Style Sheet?
+Cascading represents the specificity order in applying styles. These styles can be defined by the user, author or they can be the default browser styles. The specificity order for the styles is user styles > author styles > default browser styles.
+
+81. What is Redux in React?
+Redux is the state management library for React applications. Redux simply helps to manage the state of your application or in other words, it is used to manage the data of the application. It is used with a library like React.
+
+To install the redux follow the below command
+
+npm install redux react-redux
+82. What is the Context API?
+Context API in React is used to share data between the components without passing the props(prop drilling) manually through every level. It allows to create global state of data providing global access to all the components.
+
+The Context API consists of the three main parts
+
+createContext(): Creates a Context object.
+Provider: Provides the state to components.
+useContext(): Accesses the state inside any component.
+83. Difference between the Redux and the Context API.
+Feature
+
+Context API
+
+Redux
+
+Definition
+
+Built-in React feature for prop drilling prevention and state sharing across components.
+
+A state management library for complex global state handling.
+
+State Management
+
+Works best for lightweight state sharing (e.g., theme, language, auth state).
+
+Best for large-scale applications with complex data flow.
+
+Installation
+
+No extra installation needed (built into React).
+
+Requires installing Redux (npm install redux react-redux).
+
+Re-Renders
+
+Every consumer component re-renders on state updates.
+
+Efficient updates using Redux’s selective rendering (connect, useSelector).
+
+Use Cases
+
+Small to medium apps user authentication, language settings.
+
+Large-scale apps, Complex state like API caching, notifications, user sessions.
+
+84. What is prop drilling?
+Prop drilling in React refers to the process of passing data (props) from a parent component down to deeply nested child components through multiple intermediate components, even if those intermediate components do not directly use the data. This can lead to unnecessary complexity and reduced maintainability.
+
+We can avoid the prop drilling by two ways
+
+Using Context API
+Using Custom Hooks
+85. What is Debouncing in JavaScript?
+In JavaScript, debouncing is commonly used to enhance browser performance by ensuring that expensive operations (like complex calculations, API calls, or DOM updates) are executed only when necessary. JavaScript operates in a single-threaded environment, meaning it can only handle one operation at a time. When certain actions are triggered too frequently, such as during continuous scrolling or typing, it can overload the browser and cause sluggish performance.
+
+86. What is the differences between Java and JavaScript?
+Feature
+
+Java
+
+JavaScript
+
+Type
+
+Object-Oriented Programming (OOP) Language
+
+Scripting Language for web development
+
+Compilation
+
+Compiled into bytecode (.class files) that runs on JVM
+
+Runs in the browser (Frontend) and also on servers (Node.js)
+
+Object-Oriented Model
+
+Class-based OOP (Objects are created from classes)
+
+Prototype-based OOP (Objects inherit from other objects)
+
+Performance
+
+Faster for heavy computations (since it runs on JVM)
+
+Slower for CPU-intensive tasks (single-threaded)
+
+Memory Management
+
+Automatic Garbage Collection (JVM handles it)
+
+Automatic Garbage Collection (handled by the browser/Node.js)
+
+87. What is a template literal in JavaScript?
+Template Literal in ES6 provides new features to create a string that gives more control over dynamic strings. Traditionally, String is created using single quotes (‘) or double quotes (“) quotes. Template literal is created using the backtick (`) character.
+
+let s=`some string`;
+88. What is a higher-order function in React.js?
+Higher-order components or HOC is the advanced method of reusing the component functionality logic. It simply takes the original component and returns the enhanced component.
+
+const EnhancedComponent = higherOrderComponent(OriginalComponent);
+89. What is the Temporal Dead Zone (TDZ) in JavaScript?
+The Temporal Dead Zone refers to the period between the entering of a scope and the actual declaration of a variable using let or const. During this period, the variable is in an “uninitialized” state and accessing it will result in a ReferenceError.
+
+90. What is the difference between call() and apply() methods ?
+Feature
+
+call() Method
+
+bind() Method
+
+Definition
+
+Calls a function immediately with a given this value and arguments.
+
+Returns a new function with this value and arguments bound, but does not execute it immediately.
+
+Syntax
+
+function.call(thisArg, arg1, arg2, …)
+
+function.bind(thisArg, arg1, arg2, …)
+
+Execution
+
+Executes the function immediately.
+
+Does not execute the function immediately, instead returns a new function.
+
+Return Value
+
+Returns the result of the function execution.
+
+Returns a new function with this permanently bound.
+
+Example
+
+js function greet() { console.log(this.name); } let user = { name: “Sandeep” }; greet.call(user); // Output: “Sandeep”
+
+js function greet() { console.log(this.name); } let user = { name: “Sandeep” }; let newGreet = greet.bind(user); newGreet(); // Output: “Sandeep”
+
+91. How many types of Directives are available in AngularJS?
+There are four kinds of directives in AngularJS those are described below
+
+Element directives
+Attribute directives
+CSS class directives
+Comment directives
+92. What is factory method in AngularJS?
+AngularJS Factory Method makes the development process of AngularJS application more robust.
+
+A factory is a simple function that allows us to add some logic to a created object and return the created object.
+The factory is also used to create/return a function in the form of reusable code which can be used anywhere within the application.
+Whenever we create an object using a factory it always returns a new instance for that object.
+The object returned by the factory can be integrated(injectible) with different components of the Angularjs framework such as controller, service, filter or directive.
+93. What is the digest cycle in AngularJS?
+It is the most important part of the process of data binding in AngularJS. It basically compares the old and new versions of the scope model. The digest cycle triggered automatically. If we want to trigger the digest cycle manually then we can use $apply().
+
+94. What is an Angular router?
+The Angular router is a library that helps to manage navigation and routing in Angular applications, enabling single-page application (SPA) behavior.
+
+95. What are Angular lifecycle hooks?
+Angular lifecycle hooks are methods that allow you to tap into key moments in a component’s lifecycle. Here are the main lifecycle hooks:
+
+ngOnInit(): Called once after the component’s data-bound properties have been initialized.
+ngOnChanges(changes: SimpleChanges): Called whenever one or more data-bound input properties change.
+ngDoCheck(): Called during every change detection run, allowing you to implement your own change detection.
+ngAfterContentInit(): Called once after Angular projects external content into the component’s view.
+ngAfterContentChecked(): Called after every check of projected content.
+ngAfterViewInit(): Called once after the component’s view (and child views) has been initialized.
+ngAfterViewChecked(): Called after every check of the component’s view (and child views).
+ngOnDestroy(): Called just before Angular destroys the component, allowing you to clean up resources.
+96. What is Vue-loader?
+Vue Loader is a webpack loader for VueJS that permits to write Vue components in ‘.vue’ file format. It empowers VueJS applications to use Single File Components (SFCs), which encapsulate HTML, CSS, and JavaScript into a single file. They compile these components into JavaScript modules that the browser can grasp, easing component-based development in VueJS projects.
+
+97. Discuss the v-cloak directive in VueJS?
+The ‘v-cloak’ directive in VueJS hides components until they are compiled, preventing the display of compiled Vue templates on page load. It assures an effortless user experience by excluding the wavering outcome generated by delayed rendering, utilizing CSS to hide elements as far as Vue processing completes.
+
+98. What is vue plugin?
+Developers can form and add global level features to Vue via Vue plugin. This can be utilized to add globally available methods to an application. VueFire, Vue plugin that adds Firebase specific methods and binding to the intact application, is an example of Vue plugin.
+
+99. Name some websites which are using VueJS?
+Netflix
+Adobe
+Facebook
+Gitlab
+Xiaomi
+Alibaba
+100. How can you install VueJS in your project?
+To install VueJS in your project, you can follow these steps:
+
+Using CDN: Include VueJS directly via a CDN link in your HTML file:
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x.x/dist/vue.min.js"></script>
+Using npm: Install VueJS via npm (Node Package Manager) for more advanced projects:
+npm install vue
+Vue CLI Create Project: Create a new Vue project using Vue CLI:
+vue create my-vue-app
+cd my-vue-app
+npm run serve
+Topic-Wise Frontend Developer Interview Questions
+Here, we’ve compiled a wide range of front-end technology interview questions with detailed answers. These questions cover essential topics in front-end development, providing thorough preparation for interviews.
+
+HTML Interview Questions
+CSS Interview Questions
+JavaScript Interview Questions
+Git/Github Complete Guide
+React Interview Questions
+Angular Interview Questions
+Vue.js Interview Questions
+Tailwind CSS Interview Questions
